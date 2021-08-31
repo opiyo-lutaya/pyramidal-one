@@ -9,7 +9,9 @@
 /* header */
 
 .head-content {
-  background-color: rgb(240, 97, 97);
+  /* background-color: rgb(240, 97, 97); */
+  /* background-color: #428000; */
+  background-image: linear-gradient(#428000, #e6ffff);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,7 +20,10 @@
 }
 
 .header-label h1 {
-  font-size: 55px;
+  font-size: 60px;
+  color: #141f08;
+  font-weight: bolder;
+  font-family: "Rampart One", cursive;
 }
 
 .head-ul {
@@ -28,6 +33,8 @@
 
 .head-ul a {
   font-size: 22px;
+  color: #033342;
+  font-family: "Playfair Display", serif;
 }
 
 /* main */
@@ -38,7 +45,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin-top: 1rem;
+  padding-top: 1rem;
+  background-color: #e6ffff;
 }
 
 .main-introduction {
@@ -59,6 +67,7 @@
 .main-introduction h2 {
   font-size: 35px;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 
 .main-projects {
@@ -68,42 +77,70 @@
 .main-h3 h3 {
   font-size: 25px;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 
 .main-projects-el {
   margin-top: 1rem;
-  display: flex;
-  justify-content: space-evenly;
+  display: inline-flex;
   flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-left: 3.5em;
 }
 
-.main-projects-el div {
+.main-projects-el .main-container {
   width: 150px;
   height: 200px;
-  border: 1px solid black;
+  border: 1px solid #666;
   border-radius: 20px;
-  text-align: center;
+  /* text-align: center; */
   margin: 0.5rem;
+  display: inline-flexbox;
+}
+
+.main-projects-el .main-container:hover {
+  background-color: #bef384;
+}
+
+.main-projects-el h3 {
+  padding-top: 0.3rem;
+  text-align: center;
+  font-family: "Archivo", sans-serif;
+}
+
+.main-projects-el .project {
+  width: 100px;
+  height: 150px;
+  border: 1px solid black;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.main-projects-el .project:hover {
+  background-color: #141f08;
 }
 
 /* footer */
 
 .footer-content {
-  margin-top: 2em;
+  padding-top: 2em;
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #e6ffe6;
 }
 
 .all-contacts {
-  margin-top: 1em;
+  margin-top: 0.6rem;
   column-count: 2;
-  gap: 10rem;
+  gap: 7rem;
   margin-left: 4em;
 }
 
 .footer-h3 h3 {
   font-size: 25px;
+  font-family: "Playfair Display", serif;
 }
 
 .all-contacts > * {
@@ -111,12 +148,16 @@
 }
 
 .all-contacts a {
-  font-size: 20px;
+  font-size: 21px;
   padding-right: 0.5rem;
+  color: #033342;
+  font-family: "Playfair Display", serif;
 }
 
 .all-contacts div {
-  font-size: 18px;
+  font-size: 16px;
+
+  font-family: "Archivo", sans-serif;
 }
 
 @media screen and (max-width: 600px) {
