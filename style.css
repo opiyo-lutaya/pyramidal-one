@@ -9,8 +9,6 @@
 /* header */
 
 .head-content {
-  /* background-color: rgb(240, 97, 97); */
-  /* background-color: #428000; */
   background-image: linear-gradient(#428000, #e6ffff);
   display: flex;
   justify-content: space-around;
@@ -62,12 +60,25 @@
   width: 200px;
   height: 200px;
   border-radius: 20px;
+  box-shadow: 0 0 30px 10px rgb(17, 5, 17);
 }
 
-.main-introduction h2 {
+.main-name {
+  width: 350px;
+}
+
+.main-name h2 {
   font-size: 35px;
   text-align: center;
   font-family: "Playfair Display", serif;
+}
+
+.main-name p {
+  padding-top: 0.5rem;
+  width: 350px;
+  text-align: justify;
+  font-size: 17px;
+  font-family: "Archivo", sans-serif;
 }
 
 .main-projects {
@@ -96,10 +107,7 @@
   /* text-align: center; */
   margin: 0.5rem;
   display: inline-flexbox;
-}
-
-.main-projects-el .main-container:hover {
-  background-color: #bef384;
+  background-color: #cff3a7;
 }
 
 .main-projects-el h3 {
@@ -111,14 +119,15 @@
 .main-projects-el .project {
   width: 100px;
   height: 150px;
-  border: 1px solid black;
+  border: 1px solid #4a5242;
   margin-left: 1.5rem;
   margin-top: 1rem;
-  border-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .main-projects-el .project:hover {
-  background-color: #141f08;
+  background-color: #4a5242;
 }
 
 /* footer */
@@ -128,7 +137,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #e6ffe6;
+  /* background-color: #e6ffe6; */
+  /* background-color: #428000; */
+  background-image: linear-gradient(to top, #428000, #e6ffff);
 }
 
 .all-contacts {
@@ -156,7 +167,6 @@
 
 .all-contacts div {
   font-size: 16px;
-
   font-family: "Archivo", sans-serif;
 }
 
