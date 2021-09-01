@@ -76,8 +76,10 @@
   padding-top: 0.5rem;
   width: 350px;
   text-align: justify;
-  font-size: 16px;
-  font-family: "Archivo", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: ;
+  font-family: "Hina Mincho", serif;
 }
 
 .main-projects {
@@ -101,7 +103,7 @@
 .main-projects-el .main-container {
   width: 150px;
   height: 200px;
-  border: 1px solid #666;
+  border: 1px solid #999;
   border-radius: 20px;
   /* text-align: center; */
   margin: 0.5rem;
@@ -136,8 +138,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* background-color: #e6ffe6; */
-  /* background-color: #428000; */
   background-image: linear-gradient(to top, #428000, #e6ffff);
 }
 
