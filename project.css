@@ -70,14 +70,15 @@ main {
 
 .project-img {
   width: 200px;
-  height: 100px;
+  height: 140px;
   border: 1px solid #444;
-  margin: 1rem;
+  margin-right: 1rem;
+  margin-left: 0.3rem;
   background-color: #37412d;
 }
 
 .project-summary {
-  min-height: 10px;
+  /* min-height: 10px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,11 +86,13 @@ main {
 }
 
 .project-summary h3 {
-  font-size: 22px;
+  font-size: 25px;
   color: black;
 }
 
 .project-summary span {
   color: #0066cc;
   /* font-family: "Poppins", sans-serif; */
+  font-family: "Glory", sans-serif;
+  font-size: 16px;
 }
